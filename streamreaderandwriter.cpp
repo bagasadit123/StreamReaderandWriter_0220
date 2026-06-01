@@ -25,4 +25,9 @@ int main()
         //menulis dan memasukkan nilai dari variabel baris ke dalam file
         outfile << baris << endl;
     }
+    //menutup file setelah penulisan selesai
+    outfile.close();
+
+    //membuka file dalam mode membaca
+    ifstream infile;
 }
